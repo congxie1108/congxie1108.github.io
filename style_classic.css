@@ -1,0 +1,61 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+margin:0;padding:0;
+}
+html,body{
+	height:100%;
+	background-color: #000;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-table; }
+hr {
+	width: 100%;
+	clear: both;
+	margin: 20px 0;
+}
+a {
+	color: #EA6112;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+#main {
+	width: 960px;
+	margin: 0 auto;
+	background-color: rgba(250,250,250,0.95);
+	opacity: 0.95;
+}
+#content {
+	padding: 45px 30px;
+}
+#content ul {
+	margin-left: 25px;
+}
+#avatar {
+	height: 189px;
+	width: 189px;
+	margin: 10px;
+	float: left;
+}
+#namecard {
+	color: #000;
+	font-size: 18px;
+	width: 581px;
+	float: right;
+	margin-left: 90px
+}
+#publication {
+	font-size: 16px;
+}
